@@ -17,11 +17,11 @@ header a {
 
 .padre {
     display: flex;
-    position: absolute;
-    justify-content: space-between;
-    align-items: center;
+    
+    /* justify-content: space-between; */
+    
     flex-direction: row;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
 }
 .hijo_1 {
     background-color: whitesmoke;
@@ -84,22 +84,39 @@ header a {
 .contenedor_1 {
     display: flex;
     align-items: center;
-    justify-content: center;
     
+    padding-left: 200px;
+    padding-top: 15px;
     flex-direction: column;
     
 }
 .contenedor_2 {
     display: flex;
-    align-items: center;
+
     justify-content: center;
-    
+    padding-left: 50px;
+    padding-top: 15px;
     flex-direction: column;
 }
 .contenedor_3 {
     display: flex;
-    align-items: center;
-    justify-content: center;
+    
+    
     
     flex-direction: column;
+}
+.img_perfil {
+    height: 50px;
+    border-radius: 50%;
+}
+
+.img_port {
+    height: 50px;
+    border-radius: 50%;
+    margin-left: 5%;
+}
+.boto_perf {
+    margin-left: 80%;
+    border-radius: 20%;
+    background-color: darkgray;
 }
